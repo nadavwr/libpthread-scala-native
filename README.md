@@ -31,6 +31,7 @@ val thread1 =
     Thread.sleep(1000)
     println("thread1: departing")
   }
+println("main: thread1 started")
 
 thread1.join()
 println("main: thread1 joined")
